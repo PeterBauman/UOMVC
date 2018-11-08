@@ -1,0 +1,7 @@
+{
+  "name": "UOM",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
