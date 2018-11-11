@@ -1,1 +1,43 @@
-<ion-nav [root]="rootPage"></ion-nav>
+<ion-menu [content]="mainContent">
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>
+        Menu
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content id="side-menu21">
+    <ion-list id="menu-list1">
+      <ion-item color="none" menuClose="" on-click="goToInicio()" id="menu-list-item4">
+        <ion-icon name="md-home" item-left></ion-icon>
+        Inicio
+      </ion-item>
+      <ion-item color="none" menuClose="" on-click="goToUsuario()" id="menu-list-item5">
+        <ion-icon name="md-person" item-left></ion-icon>
+        Usuario
+      </ion-item>
+      <ion-item color="none" menuClose="" on-click="goToCartillaPrestadores()" id="menu-list-item6">
+        <ion-icon name="ios-paper" item-left></ion-icon>
+        Cartilla Prestadores
+      </ion-item>
+      <ion-item color="none" menuClose="" on-click="goToEmergencias()" id="menu-list-item7">
+        <ion-icon name="md-medical" item-left></ion-icon>
+        Emergencias
+      </ion-item>
+      <ion-item color="none" menuClose="" on-click="goToFarmacias()" id="menu-list-item8">
+        <ion-icon name="md-medkit" item-left></ion-icon>
+        Farmacias
+      </ion-item>
+      <ion-item color="none" menuClose="" on-click="goToCalendarioVacunaciN()" id="menu-list-item9">
+        <ion-icon name="md-calendar" item-left></ion-icon>
+        Calendario Vacunación
+      </ion-item>
+      <ion-item color="none" menuClose="" on-click="goToContacto()" id="menu-list-item10">
+        <ion-icon name="logo-whatsapp" item-left></ion-icon>
+        Contacto
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-menu>
+
+<ion-nav #mainContent [root]="rootPage"></ion-nav>
