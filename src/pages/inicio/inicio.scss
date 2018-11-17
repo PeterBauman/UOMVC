@@ -1,8 +1,31 @@
 page-inicio {
-    .vertical-align-content > *
-    {
-        display: flex!important;
-        align-content: center!important;
-        align-items: center!important;
+    // .vertical-align-content > *
+    // {
+    //     display: flex!important;
+    //     align-content: center!important;
+    //     align-items: center!important;
+    // }
+
+    .background {
+        background-image: url("../../assets/img/background.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .top-logo {
+        position: relative;
+        text-align: center;
+        top:10%;
+    }
+
+    ion-grid{
+        position: absolute;
+        text-align: center;
+        top:55%;
+    }
+    .footer-logo {
+        position:fixed;
+        right:0;
+        bottom:0;
     }
 }
