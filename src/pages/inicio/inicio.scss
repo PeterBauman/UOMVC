@@ -15,7 +15,7 @@ page-inicio {
     .top-logo {
         position: relative;
         text-align: center;
-        top:10%;
+        top:15%;
     }
 
     ion-grid{
@@ -23,9 +23,21 @@ page-inicio {
         text-align: center;
         top:55%;
     }
+
     .footer-logo {
         position:fixed;
         right:0;
         bottom:0;
+    }
+
+    .btn {
+        background-color:white;
+        color: #0c6c7c;
+        height: 100px;
+        width: 120px;
+    }
+
+    ion-icon{
+        font-size: 30px;
     }
 }
